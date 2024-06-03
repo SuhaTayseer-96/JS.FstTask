@@ -120,6 +120,9 @@ array2.unshift();      // no chnge
 array2.shift();        // removed fst ele .. "5"
 array2.pop();          // removedd last ele .. "3.5"
 
+//otherwise we could add some element inside push and unshift
+//so lets considered that "array.push(7)" = the output will be [5, 9, -7, 3.5, 7], the same thing for "array.unshift(2)" = [1, 5, 9, -7, 3.5, 7]
+
 
 //.........................................................
 
